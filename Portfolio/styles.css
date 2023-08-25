@@ -1,0 +1,225 @@
+*{
+	
+	font-family:monospace;
+	margin: 0;
+  	padding: 0;
+	box-sizing: border-box;
+	font-style:"Lucida Console";
+	box-sizing: border-box;
+}
+body
+{
+	background-color:#cfefeaff;
+	margin: 0;
+	padding: 0;
+    	
+}
+header .heading
+{
+	color:#126575ff;
+	padding: 15px 0%x;
+	font-size:40px;
+	font-weight:700;
+}
+nav {
+    	width: 100%;
+    	height: 150px;
+    	display:flex;
+    	justify-content: space-between;
+    	padding: 40px 10%;
+    	background-color: #1eb4d2ff;
+}
+nav ul {
+    	display: flex;
+    	list-style: none;
+}
+nav ul li {
+    	padding: 15px 15px;
+}	
+nav ul li a {
+	
+    	font-size: 20px;
+    	font-weight: 1000;
+    	color: #126575ff;
+}
+nav ul li a:hover {
+    	color: white;
+}
+.about .photo img{
+	margin-top:1px;
+	margin-right:200px;
+	margin-left:100px;
+	float:left;
+	box-shadow:6px 6px 2px;
+	color:#126575ff;
+	border-radius:100px;
+}
+.about .bio .name{
+	font-size:50px;
+	font-weight:800;
+	color: #126575ff;
+	margin-top:100px;
+	margin-bottom:80px;
+	margin-left:300px;
+}
+.about .bio .m{
+	font-size:30px;
+	font-weight:600;
+	color: #126575ff;
+	margin-top:80px;
+	margin-bottom:20px;
+	margin-left:800px;
+}
+.about hr{
+	
+	align:left;
+	height:10px;
+	width:1100px;
+	background-color:#1eb4d2ff;
+	margin-left:200px;
+	
+}
+section .heading1, .heading3, .heading5{
+	text-decoration:underline;
+	text-align:left;
+	color: #1eb4d2ff;
+	font-size:50px;
+	font-weight:800;
+	margin-top:50px;
+	margin-bottom:20px;
+	margin-left:210px;
+	text-shadow:3px 3px 3px #126575ff;
+}
+section .heading2, .heading4{
+	text-decoration:underline;
+	text-align:right;
+	color: #1eb4d2ff;
+	font-size:50px;
+	font-weight:800;
+	margin-top:50px;
+	margin-bottom:20px;
+	margin-right:210px;
+	text-shadow:3px 3px 3px #126575ff;
+}
+section .p1{
+	margin-top:50px;
+}
+section .list1 ul{
+	margin-bottom:40px;
+	margin-left:220px;
+	
+}
+section .list1 ul li{
+	padding: 10px 20px;
+	
+}
+section .list1 ul li a{
+	font-size:25px;
+	color:#126575ff;
+	font-weight:700;
+}
+section .list2 ul{
+	
+	margin-bottom:40px;
+	margin-left:250px;
+	
+}
+section .list2 ul li{
+	padding: 30px 20px;
+	
+}
+section .list2 ul li a{
+	
+	font-size:25px;
+	font-weight:700;
+	color:#126575ff;
+}
+section .list2 ul li a:hover{
+	color:#1eb4d2ff;
+}
+
+section .list3 ul{
+	margin-bottom:40px;
+	margin-left:1150px;
+	
+}
+section .list3 ul li{
+	padding: 10px 20px;
+	
+}
+section .list3 ul li a{
+	font-size:25px;
+	color:#126575ff;
+	font-weight:700;
+}
+section .p1 a{
+	float:right;
+	font-size:25px;
+	font-weight:700;
+	color:#126575ff;
+	margin-right:210px;
+	margin-bottom:20px;
+}
+section .img img{
+	margin-left:700px;
+	font-size:25px;
+	color:#126575ff;
+	margin-top:50px;
+	margin-bottom:50px;
+	box-shadow:6px 6px 6px;
+	display:flex;
+	border-radius:10px;
+}
+section .linkedin{
+	float:left;
+	color:#126575ff;
+	font-size:25px;
+	margin-left:250px;
+	margin-right:250px;
+}
+section .github{
+	float:left;
+	color:#126575ff;
+	font-size:25px;
+	margin-left:30px;
+	margin-right:250px;
+}
+section .email{
+	color:#126575ff;
+	font-size:25px;	
+	margin-bottom:200px;
+}
+section .linkedin .title a, .github .title a, .email .title a{
+	color:#126575ff;
+	font-size:25px;	
+	font-weight:700;
+	margin-bottom:100px;
+}
+section .linkedin .title a:hover, .github .title a:hover, .email .title a:hover{
+	color:#1eb4d2ff;
+}
+.about .button button{
+	width:300px;
+	text-align:center;
+	text-decoration:none;
+	color:#126575ff;
+	font-size:25px;
+	font-weight:700;
+	margin-top:10px;
+	margin-left:900px;
+	margin-bottom:100px;
+	border-radius:30px;
+	border-color:#126575ff;
+}
+.about .button button a{
+	color:#126575ff;
+	text-decoration:none;
+}
+.about .button button a:hover{
+	color:#1eb4d2ff;
+}
+footer .footer a{
+	font-size:17px;
+	margin-left:600px;
+	color:#126575ff;
+}
